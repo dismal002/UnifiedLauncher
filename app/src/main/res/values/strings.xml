@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Unified Launcher</string>
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <string name="permdesc_install_shortcut">Allows an app to add shortcuts.</string>
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <string name="permdesc_uninstall_shortcut">Allows the app to remove shortcuts.</string>
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <string name="permdesc_read_settings">Allows the app to read the settings and shortcuts.</string>
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <string name="permdesc_write_settings">Allows the app to change the settings and shortcuts.</string>
+</resources>

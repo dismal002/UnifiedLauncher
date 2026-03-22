@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">מפעיל</string>
+    <string name="uid_name">Android Core Apps</string>
+    <string name="folder_name">תיקיה</string>
+    <string name="chooser_wallpaper">בחר טפט מ</string>
+    <string name="wallpaper_instructions">הגדר טפט</string>
+    <string name="pick_wallpaper">טפטים</string>
+    <string name="activity_not_found">היישום אינו מותקן בטלפון.</string>
+    <string name="configure_wallpaper">הגדר...</string>
+    <string name="rename_folder_label">שם תיקיה</string>
+    <string name="rename_folder_title">שנה את שם התיקיה</string>
+    <string name="rename_action">אישור</string>
+    <string name="cancel_action">ביטול</string>
+    <string name="menu_item_add_item">הוסף למסך דף הבית</string>
+    <string name="group_applications">יישומים</string>
+    <string name="group_shortcuts">קיצורי דרך</string>
+    <string name="group_folder">תיקיה חדשה</string>
+    <string name="group_live_folders">תיקיות</string>
+    <string name="group_widgets">רכיבי Widget</string>
+    <string name="group_wallpapers">טפטים</string>
+    <string name="add_folder">תיקיה</string>
+    <string name="add_clock">שעון</string>
+    <string name="add_photo_frame">מסגרת תמונה</string>
+    <string name="out_of_space">אין עוד מקום במסך דף הבית הזה.</string>
+    <string name="shortcut_installed">הקיצור \'%s\' נוצר.</string>
+    <string name="shortcut_uninstalled">הקיצור \'%s\' הוסר.</string>
+    <string name="shortcut_duplicate">הקיצור \'%s\' כבר קיים.</string>
+    <string name="title_select_shortcut">בחר קיצור דרך</string>
+    <string name="title_select_application">בחר יישום</string>
+    <string name="title_select_live_folder">בחר תיקיה</string>
+    <string name="all_apps_button_label">כל היישומים</string>
+    <string name="all_apps_home_button_label">דף הבית</string>
+    <string name="menu_add">הוסף</string>
+    <string name="menu_manage_apps">נהל יישומים</string>
+    <string name="menu_wallpaper">טפט</string>
+    <string name="menu_search">חיפוש</string>
+    <string name="menu_notifications">התראות</string>
+    <string name="menu_gestures">מחוות</string>
+    <string name="menu_settings">הגדרות</string>
+    <string name="permlab_install_shortcut">התקן קיצורי דרך</string>
+    <string name="permdesc_install_shortcut">מאפשר ליישום להוסיף קיצורים ללא התערבות המשתמש.</string>
+    <string name="permlab_uninstall_shortcut">הסר קיצורי דרך</string>
+    <string name="permdesc_uninstall_shortcut">מאפשר ליישום להסיר קיצורים ללא התערבות המשתמש.</string>
+    <string name="permlab_read_settings">קרא הגדרות וקיצורי דרך מדף הבית</string>
+    <string name="permdesc_read_settings">מאפשר ליישום לקרוא את ההגדרות וקיצורי הדרך בדף הבית.</string>
+    <string name="permlab_write_settings">כתוב הגדרות וקיצורי דרך של דף הבית</string>
+    <string name="permdesc_write_settings">מאפשר ליישום לשנות את ההגדרות וקיצורי הדרך בדף הבית.</string>
+    <string name="gadget_error_text">בעיה בטעינת widget</string>
+</resources>

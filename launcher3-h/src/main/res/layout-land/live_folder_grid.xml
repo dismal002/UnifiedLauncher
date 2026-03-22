@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.LiveFolder xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+    <Button android:textSize="14sp" android:textStyle="bold" android:textColor="#404040" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/folder_close" android:background="@drawable/box_launcher_top" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:background="@drawable/box_launcher_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <GridView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="insideInset" android:id="@+id/folder_content" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/grid_selector" android:drawSelectorOnTop="false" android:cacheColorHint="#ff333333" android:verticalSpacing="10dp" android:numColumns="5"/>
+    </FrameLayout>
+</com.android.launcher2.LiveFolder>

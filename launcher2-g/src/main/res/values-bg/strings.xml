@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Стартов панел</string>
+    <string name="uid_name">Основни приложения на Android</string>
+    <string name="folder_name">Папка</string>
+    <string name="chooser_wallpaper">Избор на тапет от</string>
+    <string name="wallpaper_instructions">Задаване на тапет</string>
+    <string name="pick_wallpaper">Тапети</string>
+    <string name="activity_not_found">Приложението не е инсталирано на телефона ви.</string>
+    <string name="configure_wallpaper">Конфигуриране...</string>
+    <string name="rename_folder_label">Име на папка</string>
+    <string name="rename_folder_title">Преименуване на папка</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Отказ</string>
+    <string name="menu_item_add_item">Добавяне към началния екран</string>
+    <string name="group_applications">Приложения</string>
+    <string name="group_shortcuts">Преки пътища</string>
+    <string name="group_folder">Нова папка</string>
+    <string name="group_live_folders">Папки</string>
+    <string name="group_widgets">Приспособления</string>
+    <string name="group_wallpapers">Тапети</string>
+    <string name="add_folder">Папка</string>
+    <string name="add_clock">Часовник</string>
+    <string name="add_photo_frame">Рамка на снимка</string>
+    <string name="out_of_space">На този начален екран няма повече място.</string>
+    <string name="shortcut_installed">Прекият път за „%s“ бе създаден.</string>
+    <string name="shortcut_uninstalled">Прекият път към „%s“ бе премахнат.</string>
+    <string name="shortcut_duplicate">Прекият път за „%s“ вече съществува.</string>
+    <string name="title_select_shortcut">Избор на пряк път</string>
+    <string name="title_select_application">Избиране на приложение</string>
+    <string name="title_select_live_folder">Избор на папка</string>
+    <string name="all_apps_button_label">Всички приложения</string>
+    <string name="all_apps_home_button_label">Начало</string>
+    <string name="menu_add">Добавяне</string>
+    <string name="menu_manage_apps">Управление на приложенията</string>
+    <string name="menu_wallpaper">Тапет</string>
+    <string name="menu_search">Търсене</string>
+    <string name="menu_notifications">Известия</string>
+    <string name="menu_gestures">Жестове</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="permlab_install_shortcut">инсталиране на преки пътища</string>
+    <string name="permdesc_install_shortcut">Разрешава на приложение да добави преки пътища без намеса на потребителя.</string>
+    <string name="permlab_uninstall_shortcut">деинсталиране на преките пътища</string>
+    <string name="permdesc_uninstall_shortcut">Разрешава на приложение да премахне преките пътища без намеса на потребителя.</string>
+    <string name="permlab_read_settings">прочетете настройките за „Начало“ и преки пътища</string>
+    <string name="permdesc_read_settings">Разрешава на приложение да прочете настройките и преките пътища към „Начало“.</string>
+    <string name="permlab_write_settings">въведете настройките за „Начало“ и преки пътища</string>
+    <string name="permdesc_write_settings">Разрешава на приложение да промени настройките и преките пътища в „Начало“.</string>
+    <string name="gadget_error_text">Проблем при зареждане на приспособление</string>
+</resources>

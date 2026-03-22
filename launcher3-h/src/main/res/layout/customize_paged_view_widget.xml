@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.PagedViewWidget xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingRight="25dp" android:paddingBottom="50dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" launcher:blurColor="#ff6b8cf0" launcher:outlineColor="#ff8cd2ff">
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ImageView android:id="@+id/widget_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" android:layout_weight="0"/>
+    <ImageView android:id="@+id/divider" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_divider" android:layout_weight="0"/>
+    <TextView android:textSize="14sp" android:textColor="#ffffffff" android:gravity="left" android:id="@+id/widget_name" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:shadowColor="#ff000000" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="1" android:layout_weight="0"/>
+    <TextView android:textSize="14sp" android:textColor="#ff999999" android:gravity="left" android:id="@+id/widget_dims" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#99000000" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="1" android:layout_weight="0"/>
+</com.android.launcher2.PagedViewWidget>

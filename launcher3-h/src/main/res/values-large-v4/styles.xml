@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="config_orientation">
+        <item name="android:screenOrientation">unspecified</item>
+    </style>
+    <style name="Theme.WallpaperPicker">
+    </style>
+    <style name="Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+    <style name="TabIndicator.Wide">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+    <style name="CustomizeTabIndicator.Wide" parent="CustomizeTabIndicator">
+    </style>
+</resources>

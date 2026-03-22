@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "UnifiedLauncher"
+include ':app'
+include ':launcher1-d'
+include ':launcher2-g'
+include ':launcher2-j'
+include ':launcher3-m'
+include ':launcher3-o'
+include ':launcher3-h'

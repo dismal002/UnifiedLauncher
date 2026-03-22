@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="hotseats">
+        <item>intent:#Intent;action=android.intent.action.DIAL;end</item>
+        <item>*BROWSER*</item>
+    </array>
+    <array name="hotseat_icons">
+        <item>@drawable/hotseat_phone</item>
+        <item>@drawable/hotseat_browser</item>
+    </array>
+    <array name="extra_wallpapers">
+    </array>
+    <array name="wallpapers">
+        <item>wallpaper_beach</item>
+        <item>wallpaper_blue</item>
+        <item>wallpaper_green</item>
+        <item>wallpaper_grey</item>
+        <item>wallpaper_jellyfish</item>
+        <item>wallpaper_lake</item>
+        <item>wallpaper_mountain</item>
+        <item>wallpaper_path</item>
+        <item>wallpaper_pink</item>
+        <item>wallpaper_road</item>
+        <item>wallpaper_snow_leopard</item>
+        <item>wallpaper_sunrise</item>
+        <item>wallpaper_sunset</item>
+        <item>wallpaper_zanzibar</item>
+    </array>
+</resources>

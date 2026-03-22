@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Launcher</string>
+    <string name="uid_name">Android Core Apps</string>
+    <string name="folder_name">Folder</string>
+    <string name="chooser_wallpaper">Pumili ng wallpaper mula sa</string>
+    <string name="wallpaper_instructions">Itakda ang wallpaper</string>
+    <string name="pick_wallpaper">Mga Wallpaper</string>
+    <string name="activity_not_found">Hindi naka-install ang application sa iyong telepono.</string>
+    <string name="configure_wallpaper">I-configure...</string>
+    <string name="rename_folder_label">Pangalan ng folder</string>
+    <string name="rename_folder_title">Palitan ng pangalan ang folder</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Kanselahin</string>
+    <string name="menu_item_add_item">Idagdag sa Home screen</string>
+    <string name="group_applications">Mga Application</string>
+    <string name="group_shortcuts">Mga Shortcut</string>
+    <string name="group_folder">Bagong folder</string>
+    <string name="group_live_folders">Mga Folder</string>
+    <string name="group_widgets">Mga Widget</string>
+    <string name="group_wallpapers">Mga Wallpaper</string>
+    <string name="add_folder">Folder</string>
+    <string name="add_clock">Orasan</string>
+    <string name="add_photo_frame">Frame ng larawan</string>
+    <string name="out_of_space">Wala nang lugar sa Home screen na ito.</string>
+    <string name="shortcut_installed">Nalikha ang shortcut na \"%s\".</string>
+    <string name="shortcut_uninstalled">Inalis ang shortcut na \"%s\".</string>
+    <string name="shortcut_duplicate">Umiiral na ang shortcut na \"%s\".</string>
+    <string name="title_select_shortcut">Pumili ng shortcut</string>
+    <string name="title_select_application">Pumili ng application</string>
+    <string name="title_select_live_folder">Pumili ng folder</string>
+    <string name="all_apps_button_label">Lahat ng mga application</string>
+    <string name="all_apps_home_button_label">Home</string>
+    <string name="menu_add">Idagdag</string>
+    <string name="menu_manage_apps">Pamahalaan ang apps</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu_search">Paghahanap</string>
+    <string name="menu_notifications">Mga Notification</string>
+    <string name="menu_gestures">Mga Gesture</string>
+    <string name="menu_settings">Mga Setting</string>
+    <string name="permlab_install_shortcut">i-install ang mga shortcut</string>
+    <string name="permdesc_install_shortcut">Pinapayagan ang isang application na magdagdag ng mga shortcut nang walang panghihimasok ng user.</string>
+    <string name="permlab_uninstall_shortcut">huwag i-install ang mga shortcut</string>
+    <string name="permdesc_uninstall_shortcut">Pinapayagan ang isang application na alisin ang mga shortcut na walang panghihimasok ng user.</string>
+    <string name="permlab_read_settings">basahin ang mga setting ng Home at shortcut</string>
+    <string name="permdesc_read_settings">Pinapayagan ang isang application na basahin ang mga setting at shortcut sa Home.</string>
+    <string name="permlab_write_settings">magsulat ng mga setting ng Home at mga shortcut</string>
+    <string name="permdesc_write_settings">Pinapayagan ang isang application na baguhin ang mga setting at shortcut sa Home.</string>
+    <string name="gadget_error_text">Problema sa pag-load ng widget</string>
+</resources>

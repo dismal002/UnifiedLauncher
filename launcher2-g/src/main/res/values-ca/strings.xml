@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Barra d\'execució ràpida</string>
+    <string name="uid_name">Aplicacions principals d\'Android</string>
+    <string name="folder_name">Carpeta</string>
+    <string name="chooser_wallpaper">Selecció d\'un empaperat de</string>
+    <string name="wallpaper_instructions">Defineix l\'empaperat</string>
+    <string name="pick_wallpaper">Empaperats</string>
+    <string name="activity_not_found">L\'aplicació no està instal·lada al telèfon.</string>
+    <string name="configure_wallpaper">Configura...</string>
+    <string name="rename_folder_label">Nom de la carpeta</string>
+    <string name="rename_folder_title">Canvi de nom de carpeta</string>
+    <string name="rename_action">D\'acord</string>
+    <string name="cancel_action">Cancel·la</string>
+    <string name="menu_item_add_item">Addició a la pantalla Inici</string>
+    <string name="group_applications">Aplicacions</string>
+    <string name="group_shortcuts">Dreceres</string>
+    <string name="group_folder">Carpeta nova</string>
+    <string name="group_live_folders">Carpetes</string>
+    <string name="group_widgets">Widgets</string>
+    <string name="group_wallpapers">Empaperats</string>
+    <string name="add_folder">Carpeta</string>
+    <string name="add_clock">Rellotge</string>
+    <string name="add_photo_frame">Marc de la imatge</string>
+    <string name="out_of_space">Ja no queda espai en aquesta pantalla Inici.</string>
+    <string name="shortcut_installed">S\'ha creat la drecera \"%s\".</string>
+    <string name="shortcut_uninstalled">S\'ha eliminat la drecera \"%s\".</string>
+    <string name="shortcut_duplicate">La drecera \"%s\" ja existeix.</string>
+    <string name="title_select_shortcut">Selecció d\'una drecera</string>
+    <string name="title_select_application">Selecciona l\'aplicació</string>
+    <string name="title_select_live_folder">Selecció d\'una carpeta</string>
+    <string name="all_apps_button_label">Totes les aplicacions</string>
+    <string name="all_apps_home_button_label">Pàgina d\'inici</string>
+    <string name="menu_add">Afegeix</string>
+    <string name="menu_manage_apps">Gestiona les aplicacions</string>
+    <string name="menu_wallpaper">Empaperat</string>
+    <string name="menu_search">Cerca</string>
+    <string name="menu_notifications">Notificacions</string>
+    <string name="menu_gestures">Gestos</string>
+    <string name="menu_settings">Configuració</string>
+    <string name="permlab_install_shortcut">instal·lar dreceres</string>
+    <string name="permdesc_install_shortcut">Permet a una aplicació afegir dreceres sense intervenció de l\'usuari.</string>
+    <string name="permlab_uninstall_shortcut">desinstal·lar dreceres</string>
+    <string name="permdesc_uninstall_shortcut">Permet que una aplicació elimini dreceres sense intervenció de l\'usuari.</string>
+    <string name="permlab_read_settings">llegir la configuració i les dreceres de la pantalla Inici</string>
+    <string name="permdesc_read_settings">Permet a una aplicació llegir la configuració i les dreceres de la pantalla Inici.</string>
+    <string name="permlab_write_settings">escriure la configuració i les dreceres de la pantalla Inici</string>
+    <string name="permdesc_write_settings">Permet que una aplicació canviï la configuració i les dreceres de la pantalla Inici.</string>
+    <string name="gadget_error_text">S\'ha produït un problema en carregar el widget</string>
+</resources>

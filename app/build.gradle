@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+configurations.configureEach {
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+}
+
+android {
+    namespace 'com.dismal.unifiedlauncher'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.dismal.unifiedlauncher"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation project(':launcher2-j')
+    implementation project(':launcher1-d')
+    implementation project(':launcher2-g')
+    implementation project(':launcher3-o')
+    implementation project(':launcher3-m')
+    implementation project(':launcher3-h')
+
+    // These two ports currently coexist cleanly in one host APK.
+    // The remaining ports still need namespace/package conflict resolution
+    // before they can be wired in as real HOME implementations.
+}

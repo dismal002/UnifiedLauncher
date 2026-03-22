@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Palaidējs</string>
+    <string name="uid_name">Android kodola lietojumprogrammas</string>
+    <string name="folder_name">Mape</string>
+    <string name="chooser_wallpaper">Atlasīt tapeti no</string>
+    <string name="wallpaper_instructions">Iestatīt tapeti</string>
+    <string name="pick_wallpaper">Tapetes</string>
+    <string name="activity_not_found">Lietojumprogramma jūsu tālrunī nav instalēta.</string>
+    <string name="configure_wallpaper">Konfigurēt...</string>
+    <string name="rename_folder_label">Mapes nosaukums</string>
+    <string name="rename_folder_title">Mapes pārdēvēšana</string>
+    <string name="rename_action">Labi</string>
+    <string name="cancel_action">Atcelt</string>
+    <string name="menu_item_add_item">Pievienot sākuma ekrānam</string>
+    <string name="group_applications">Lietojumprogrammas</string>
+    <string name="group_shortcuts">Saīsnes</string>
+    <string name="group_folder">Jauna mape</string>
+    <string name="group_live_folders">Mapes</string>
+    <string name="group_widgets">Logrīki</string>
+    <string name="group_wallpapers">Tapetes</string>
+    <string name="add_folder">Mape</string>
+    <string name="add_clock">Pulkstenis</string>
+    <string name="add_photo_frame">Attēla ietvars</string>
+    <string name="out_of_space">Šajā sākuma ekrānā vairs nav vietas.</string>
+    <string name="shortcut_installed">Saīsne “%s” tika izveidota.</string>
+    <string name="shortcut_uninstalled">Saīsne “%s” tika noņemta.</string>
+    <string name="shortcut_duplicate">Saīsne “%s” jau pastāv.</string>
+    <string name="title_select_shortcut">Saīsnes atlase</string>
+    <string name="title_select_application">Lietojumprogrammas atlase</string>
+    <string name="title_select_live_folder">Mapes atlase</string>
+    <string name="all_apps_button_label">Visas lietojumprogrammas</string>
+    <string name="all_apps_home_button_label">Sākums</string>
+    <string name="menu_add">Pievienot</string>
+    <string name="menu_manage_apps">Lietotņu pārvaldība</string>
+    <string name="menu_wallpaper">Fona tapete</string>
+    <string name="menu_search">Meklēt</string>
+    <string name="menu_notifications">Paziņojumi</string>
+    <string name="menu_gestures">Žesti</string>
+    <string name="menu_settings">Iestatījumi</string>
+    <string name="permlab_install_shortcut">ievietot saīsnes</string>
+    <string name="permdesc_install_shortcut">Ļauj lietojumprogrammai pievienot saīsnes, nejautājot lietotājam.</string>
+    <string name="permlab_uninstall_shortcut">atinstalēt saīsnes</string>
+    <string name="permdesc_uninstall_shortcut">Ļauj lietojumprogrammai noņemt saīsnes, nejautājot lietotājam.</string>
+    <string name="permlab_read_settings">lasīt sākuma ekrāna iestatījumus un saīsnes</string>
+    <string name="permdesc_read_settings">Ļauj lietojumprogrammai lasīt iestatījumus un saīsnes sākuma ekrānā.</string>
+    <string name="permlab_write_settings">rakstīt sākuma ekrāna iestatījumus un saīsnes</string>
+    <string name="permdesc_write_settings">Ļauj lietojumprogrammai mainīt iestatījumus un saīsnes sākuma ekrānā.</string>
+    <string name="gadget_error_text">Radās problēma, ielādējot logrīku</string>
+</resources>

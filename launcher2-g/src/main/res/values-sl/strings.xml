@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Zaganjalnik</string>
+    <string name="uid_name">Android Core Apps</string>
+    <string name="folder_name">Mapa</string>
+    <string name="chooser_wallpaper">Izberi sliko za ozadje iz</string>
+    <string name="wallpaper_instructions">Nastavi sliko za ozadje</string>
+    <string name="pick_wallpaper">Slike za ozadje</string>
+    <string name="activity_not_found">Program ni nameščen v telefonu.</string>
+    <string name="configure_wallpaper">Konfiguriraj ...</string>
+    <string name="rename_folder_label">Ime mape</string>
+    <string name="rename_folder_title">Preimenuj mapo</string>
+    <string name="rename_action">V redu</string>
+    <string name="cancel_action">Prekliči</string>
+    <string name="menu_item_add_item">Dodaj na začetni zaslon</string>
+    <string name="group_applications">Programi</string>
+    <string name="group_shortcuts">Bližnjice</string>
+    <string name="group_folder">Nova mapa</string>
+    <string name="group_live_folders">Mape</string>
+    <string name="group_widgets">Pripomočki</string>
+    <string name="group_wallpapers">Slike za ozadje</string>
+    <string name="add_folder">Mapa</string>
+    <string name="add_clock">Ura</string>
+    <string name="add_photo_frame">Okvir slike</string>
+    <string name="out_of_space">Na tem začetnem zaslonu ni več prostora.</string>
+    <string name="shortcut_installed">Bližnjica »%s« je bila ustvarjena.</string>
+    <string name="shortcut_uninstalled">Bližnjica »%s« je bila odstranjena.</string>
+    <string name="shortcut_duplicate">Bližnjica »%s« že obstaja.</string>
+    <string name="title_select_shortcut">Izberi bližnjico</string>
+    <string name="title_select_application">Izberite program</string>
+    <string name="title_select_live_folder">Izberite mapo</string>
+    <string name="all_apps_button_label">Vsi programi</string>
+    <string name="all_apps_home_button_label">Začetni zaslon</string>
+    <string name="menu_add">Dodaj</string>
+    <string name="menu_manage_apps">Upravljaj programe</string>
+    <string name="menu_wallpaper">Slika za ozadje</string>
+    <string name="menu_search">Iskanje</string>
+    <string name="menu_notifications">Obvestila</string>
+    <string name="menu_gestures">Poteze</string>
+    <string name="menu_settings">Nastavitve</string>
+    <string name="permlab_install_shortcut">namesti bližnjice</string>
+    <string name="permdesc_install_shortcut">Omogoča programu dodajanje bližnjic brez posredovanja uporabnika.</string>
+    <string name="permlab_uninstall_shortcut">odstrani bližnjice</string>
+    <string name="permdesc_uninstall_shortcut">Omogoča programu odstranjevanje bližnjic brez posredovanja uporabnika.</string>
+    <string name="permlab_read_settings">branje nastavitev in bližnjic začetnega zaslona</string>
+    <string name="permdesc_read_settings">Omogoča programu branje nastavitev in bližnjic na začetnem zaslonu.</string>
+    <string name="permlab_write_settings">zapis nastavitev in bližnjic začetnega zaslona</string>
+    <string name="permdesc_write_settings">Omogoča programu spreminjanje nastavitev in bližnjic na začetnem zaslonu.</string>
+    <string name="gadget_error_text">Težave pri nalaganju pripomočka</string>
+</resources>

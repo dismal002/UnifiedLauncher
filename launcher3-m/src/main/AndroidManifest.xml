@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- com.android.launcher.permission.INSTALL_SHORTCUT is owned by the system launcher
+         on pre-Marshmallow devices. Declaring it causes INSTALL_FAILED_DUPLICATE_PERMISSION. -->
+    <!-- com.marshmallow.launcher permissions are declared by com.marshmallow.launcher; only use them here -->
+    <uses-permission android:name="com.marshmallow.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.marshmallow.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.marshmallow.launcher.permission.RECEIVE_LAUNCH_BROADCASTS" />
+    <uses-permission android:name="com.marshmallow.launcher.permission.RECEIVE_FIRST_LOAD_BROADCAST" />
+
+    <!-- Library module - no activities or components -->
+</manifest>

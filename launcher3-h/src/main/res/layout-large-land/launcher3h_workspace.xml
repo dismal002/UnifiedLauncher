@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.Workspace xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="?android:attr/actionBarSize" android:paddingBottom="10dp" launcher:defaultScreen="2" launcher:pageSpacing="@dimen/workspace_page_spacing_land">
+    <include android:id="@+id/cell1" layout="@layout/launcher3h_workspace_screen"/>
+    <include android:id="@+id/cell2" layout="@layout/launcher3h_workspace_screen"/>
+    <include android:id="@+id/cell3" layout="@layout/launcher3h_workspace_screen"/>
+    <include android:id="@+id/cell4" layout="@layout/launcher3h_workspace_screen"/>
+    <include android:id="@+id/cell5" layout="@layout/launcher3h_workspace_screen"/>
+</com.android.launcher2.Workspace>

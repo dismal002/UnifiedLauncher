@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wallpapers">
+        <item>bluecrystal</item>
+        <item>bluelinebots</item>
+        <item>glowy_hex</item>
+        <item>bots</item>
+        <item>flowerbot</item>
+        <item>bucky</item>
+        <item>lotus</item>
+        <item>city</item>
+        <item>village</item>
+    </array>
+</resources>

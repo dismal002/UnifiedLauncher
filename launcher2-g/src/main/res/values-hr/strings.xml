@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Pokretač</string>
+    <string name="uid_name">Matične aplikacije za Android</string>
+    <string name="folder_name">Mapa</string>
+    <string name="chooser_wallpaper">Odabir između pozadinskih slika</string>
+    <string name="wallpaper_instructions">Postavi pozadinsku sliku</string>
+    <string name="pick_wallpaper">Pozadinske slike</string>
+    <string name="activity_not_found">Aplikacija nije instalirana na vašem telefonu.</string>
+    <string name="configure_wallpaper">Konfiguriraj...</string>
+    <string name="rename_folder_label">Naziv mape</string>
+    <string name="rename_folder_title">Preimenuj mapu</string>
+    <string name="rename_action">U redu</string>
+    <string name="cancel_action">Odustani</string>
+    <string name="menu_item_add_item">Dodaj na početni zaslon</string>
+    <string name="group_applications">Aplikacije</string>
+    <string name="group_shortcuts">Prečaci</string>
+    <string name="group_folder">Nova mapa</string>
+    <string name="group_live_folders">Mape</string>
+    <string name="group_widgets">Widgeti</string>
+    <string name="group_wallpapers">Pozadinske slike</string>
+    <string name="add_folder">Mapa</string>
+    <string name="add_clock">Sat</string>
+    <string name="add_photo_frame">Okvir slike</string>
+    <string name="out_of_space">Na ovom početnom zaslonu više nema mjesta.</string>
+    <string name="shortcut_installed">Izrađen je prečac za \"%s\".</string>
+    <string name="shortcut_uninstalled">Prečac za \"%s\" je uklonjen.</string>
+    <string name="shortcut_duplicate">Prečac za \"%s\" već postoji.</string>
+    <string name="title_select_shortcut">Odaberite prečac</string>
+    <string name="title_select_application">Odaberite aplikaciju</string>
+    <string name="title_select_live_folder">Odaberite mapu</string>
+    <string name="all_apps_button_label">Sve aplikacije</string>
+    <string name="all_apps_home_button_label">Početna</string>
+    <string name="menu_add">Dodaj</string>
+    <string name="menu_manage_apps">Upravljaj aplikacijama</string>
+    <string name="menu_wallpaper">Pozadinska slika</string>
+    <string name="menu_search">Pretraži</string>
+    <string name="menu_notifications">Obavijesti</string>
+    <string name="menu_gestures">Geste</string>
+    <string name="menu_settings">Postavke</string>
+    <string name="permlab_install_shortcut">instaliraj prečace</string>
+    <string name="permdesc_install_shortcut">Dopušta aplikaciji dodavanje prečaca bez intervencije korisnika.</string>
+    <string name="permlab_uninstall_shortcut">deinstaliraj prečace</string>
+    <string name="permdesc_uninstall_shortcut">Dopušta aplikaciji uklanjanje prečaca bez intervencije korisnika.</string>
+    <string name="permlab_read_settings">pročitaj postavke početnog zaslona i prečaca</string>
+    <string name="permdesc_read_settings">Dopušta aplikaciji čitanje postavki i prečaca na početnom zaslonu.</string>
+    <string name="permlab_write_settings">zapiši postavke početnog zaslona i prečaca</string>
+    <string name="permdesc_write_settings">Dopušta aplikaciji promjenu postavki i prečaca na početnom zaslonu.</string>
+    <string name="gadget_error_text">Problem pri učitavanju widgeta</string>
+</resources>

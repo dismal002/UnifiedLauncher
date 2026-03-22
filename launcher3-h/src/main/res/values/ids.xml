@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IDs retained for code compatibility after layout consolidation -->
+    <item name="previous_screen" type="id"/>
+    <item name="next_screen" type="id"/>
+    <item name="hotseat_left" type="id"/>
+    <item name="hotseat_right" type="id"/>
+</resources>

@@ -1,0 +1,42 @@
+package com.oreo.launcher3.config;
+
+public class FeatureFlags {
+    public static final boolean NO_ALL_APPS_ICON = true;
+    public static final boolean QSB_ON_FIRST_SCREEN = true;
+    public static final boolean LIGHT_STATUS_BAR = false;
+    public static final boolean LAUNCHER3_ALL_APPS_PULL_UP = true;
+    public static final boolean LAUNCHER3_ALLAPPS_PULL_UP = true;
+    public static final boolean LAUNCHER3_LEGACY_FOLDER_ICON = false;
+    public static final boolean LAUNCHER3_UPDATE_SOFT_INPUT_MODE = false;
+    public static final boolean PULLDOWN_SEARCH = false;
+    public static final boolean LAUNCHER3_DISABLE_ICON_NORMALIZATION = false;
+    public static final boolean LAUNCHER3_DISABLE_PINCH_TO_OVERVIEW = false;
+    public static final boolean LAUNCHER3_PROMISE_APPS_IN_ALL_APPS = false;
+    public static final boolean LAUNCHER3_PROMISE_APPS_NEW_INSTALLS = false;
+    public static final boolean LAUNCHER3_FOLDER_TRANSITION = true;
+    public static final boolean LAUNCHER3_SPRING_ICONS = true;
+    public static final boolean LAUNCHER3_ICON_SHAPES = true;
+    public static final boolean LAUNCHER3_NOTIFICATION_DOTS = true;
+    public static final boolean LAUNCHER3_DISCOVERY_ENABLED = false;
+    public static final boolean LAUNCHER3_SWIPE_BNB = false;
+    public static final boolean LAUNCHER3_USE_WAKE_LOCK = false;
+    public static final boolean LAUNCHER3_LEGACY_WORKSPACE_DND = false;
+    public static final boolean LAUNCHER3_PHYSICS = false;
+    public static final boolean LAUNCHER3_ICON_OUTLINE_PULSE = false;
+    public static final boolean LAUNCHER3_BADGE_ICONS = true;
+    public static final boolean BADGE_ICONS = true;
+    public static final boolean LAUNCHER3_DEEP_SHORTCUT_ICON_CACHE = false;
+    public static final boolean LAUNCHER3_DEEP_SHORTCUTS = true;
+    public static final boolean LAUNCHER3_SHORTCUTS_IN_ZERO_STATE = false;
+    public static final boolean LAUNCHER3_ALLAPPS_PREDICTION_ROW = false;
+    public static final boolean LAUNCHER3_ALLAPPS_DISCOVERY = false;
+    public static final boolean LAUNCHER3_ALLAPPS_SEARCH_PIPELINE = false;
+    public static final boolean LAUNCHER3_OVERVIEW_ACTIONS = false;
+    public static final boolean LAUNCHER3_OVERVIEW_SWIPE_UP = false;
+    public static final boolean LAUNCHER3_DIRECT_SCROLL = false;
+    public static final boolean LAUNCHER3_NEW_FOLDER_ANIMATION = false;
+    public static final boolean DISCOVERY_ENABLED = false;
+    public static final boolean ALL_APPS_HANDLE = true;
+    public static final boolean LEGACY_ICON_TREATMENT = false;
+    public static final boolean ADAPTIVE_ICON_SHADOW = false;
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="config_orientation">
+        <item name="android:screenOrientation">nosensor</item>
+    </style>
+    <style name="Theme.WallpaperPicker">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Base">
+    </style>
+    <style name="Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_fast</item>
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#b0000000</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="WorkspaceIcon.AllApps">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape">
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:drawablePadding">3dp</item>
+    </style>
+    <style name="TabIndicator">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tab_widget_indicator_color</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:shadowColor">#393939</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="TabIndicator.Portrait">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="CustomizeTabIndicator">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tab_widget_indicator_color</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:shadowColor">#393939</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="CustomizeTabIndicator.Wide" parent="CustomizeTabIndicator"/>
+    <style name="TabIndicator.Wide" parent="TabIndicator"/>
+    <style name="SearchButton">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">9dp</item>
+    </style>
+    <style name="HotseatButton">
+        <item name="android:background">@drawable/hotseat_bg_center</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="HotseatButton.Left">
+        <item name="android:background">@drawable/hotseat_bg_left</item>
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+    <style name="HotseatButton.Right">
+        <item name="android:background">@drawable/hotseat_bg_right</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Покретач</string>
+    <string name="uid_name">Основне Android апликације</string>
+    <string name="folder_name">Директоријум</string>
+    <string name="chooser_wallpaper">Избор позадине из</string>
+    <string name="wallpaper_instructions">Подеси позадину</string>
+    <string name="pick_wallpaper">Позадине</string>
+    <string name="activity_not_found">Апликација није инсталирана у телефону.</string>
+    <string name="configure_wallpaper">Конфигурисање...</string>
+    <string name="rename_folder_label">Име директоријума</string>
+    <string name="rename_folder_title">Преименовање директоријума</string>
+    <string name="rename_action">Потврди</string>
+    <string name="cancel_action">Откажи</string>
+    <string name="menu_item_add_item">Додавање на почетни екран</string>
+    <string name="group_applications">Апликације</string>
+    <string name="group_shortcuts">Пречице</string>
+    <string name="group_folder">Нови директоријум</string>
+    <string name="group_live_folders">Директоријуми</string>
+    <string name="group_widgets">Виџети</string>
+    <string name="group_wallpapers">Позадине</string>
+    <string name="add_folder">Директоријум</string>
+    <string name="add_clock">Сат</string>
+    <string name="add_photo_frame">Оквир слике</string>
+    <string name="out_of_space">Нема више простора на овом почетном екрану.</string>
+    <string name="shortcut_installed">Пречица „%s“ је направљена.</string>
+    <string name="shortcut_uninstalled">Пречица „%s“ је уклоњена.</string>
+    <string name="shortcut_duplicate">Пречица „%s“ већ постоји.</string>
+    <string name="title_select_shortcut">Избор пречице</string>
+    <string name="title_select_application">Изаберите апликацију</string>
+    <string name="title_select_live_folder">Избор директоријума</string>
+    <string name="all_apps_button_label">Све апликације</string>
+    <string name="all_apps_home_button_label">Почетна</string>
+    <string name="menu_add">Додај</string>
+    <string name="menu_manage_apps">Управљање апликацијама</string>
+    <string name="menu_wallpaper">Позадина</string>
+    <string name="menu_search">Претражи</string>
+    <string name="menu_notifications">Обавештења</string>
+    <string name="menu_gestures">Покрети</string>
+    <string name="menu_settings">Подешавања</string>
+    <string name="permlab_install_shortcut">инсталирај пречице</string>
+    <string name="permdesc_install_shortcut">Омогућава апликацији да дода пречице без интервенције корисника.</string>
+    <string name="permlab_uninstall_shortcut">деинсталирај пречице</string>
+    <string name="permdesc_uninstall_shortcut">Омогућава апликацији да уклони пречице без интервенције корисника.</string>
+    <string name="permlab_read_settings">читај подешавања и пречице на почетном екрану</string>
+    <string name="permdesc_read_settings">Омогућава апликацији да чита подешавања и пречице на почетном екрану.</string>
+    <string name="permlab_write_settings">уписивање подешавања и пречица на почетном екрану</string>
+    <string name="permdesc_write_settings">Омогућава апликацији да промени подешавања и пречице на почетном екрану.</string>
+    <string name="gadget_error_text">Проблем приликом учитавања виџета</string>
+</resources>

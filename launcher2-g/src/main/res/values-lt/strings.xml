@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Paleidimo priemonė</string>
+    <string name="uid_name">Pagrindinės „Android“ programos</string>
+    <string name="folder_name">Aplankas</string>
+    <string name="chooser_wallpaper">Pasirinkti darbalaukio foną iš</string>
+    <string name="wallpaper_instructions">Nustatyti darbalaukio foną</string>
+    <string name="pick_wallpaper">Darbalaukio fonai</string>
+    <string name="activity_not_found">Programa jūsų telefone neįdiegta.</string>
+    <string name="configure_wallpaper">Konfigūruoti...</string>
+    <string name="rename_folder_label">Aplanko pavadinimas</string>
+    <string name="rename_folder_title">Sukurti aplankui naują pavadinimą</string>
+    <string name="rename_action">Gerai</string>
+    <string name="cancel_action">Atšaukti</string>
+    <string name="menu_item_add_item">Pridėti prie pagrindinio ekrano</string>
+    <string name="group_applications">Programos</string>
+    <string name="group_shortcuts">Spartieji klavišai</string>
+    <string name="group_folder">Naujas aplankas</string>
+    <string name="group_live_folders">Aplankai</string>
+    <string name="group_widgets">Valdikliai</string>
+    <string name="group_wallpapers">Darbalaukio fonai</string>
+    <string name="add_folder">Aplankas</string>
+    <string name="add_clock">Laikrodis</string>
+    <string name="add_photo_frame">Paveikslėlio rėmelis</string>
+    <string name="out_of_space">Šiame pagrindiniame ekrane vietos nebėra.</string>
+    <string name="shortcut_installed">Sukurtas „%s“ spartusis klavišas.</string>
+    <string name="shortcut_uninstalled">Spartusis klavišas „%s“ pašalintas.</string>
+    <string name="shortcut_duplicate">Spartusis klavišas „%s“ jau yra.</string>
+    <string name="title_select_shortcut">Pasirinkti spartųjį klavišą</string>
+    <string name="title_select_application">Pasirinkti programą</string>
+    <string name="title_select_live_folder">Pasirinkti aplanką</string>
+    <string name="all_apps_button_label">Visos programos</string>
+    <string name="all_apps_home_button_label">Pagrindinis</string>
+    <string name="menu_add">Pridėti</string>
+    <string name="menu_manage_apps">Valdyti programas</string>
+    <string name="menu_wallpaper">Darbalaukio fonas</string>
+    <string name="menu_search">Ieškoti</string>
+    <string name="menu_notifications">Įspėjimai</string>
+    <string name="menu_gestures">Gestai</string>
+    <string name="menu_settings">Nustatymai</string>
+    <string name="permlab_install_shortcut">įdiegti sparčiuosius klavišus</string>
+    <string name="permdesc_install_shortcut">Leidžia programai pridėti sparčiuosius klavišus be naudotojo įsikišimo.</string>
+    <string name="permlab_uninstall_shortcut">pašalinti sparčiuosius klavišus</string>
+    <string name="permdesc_uninstall_shortcut">Leidžia programai pašalinti sparčiuosius klavišus be naudotojo įsikišimo.</string>
+    <string name="permlab_read_settings">skaityti pagrindinio puslapio nustatymus ir sparčiuosius klavišus</string>
+    <string name="permdesc_read_settings">Leidžia programai skaityti pagrindinio puslapio nustatymus ir sparčiuosius klavišus.</string>
+    <string name="permlab_write_settings">rašyti pagrindinio puslapio nustatymus ir sparčiuosius klavišus</string>
+    <string name="permdesc_write_settings">Leidžia programai keisti pagrindinio puslapio nustatymus ir sparčiuosius klavišus.</string>
+    <string name="gadget_error_text">Problema įkeliant valdiklį</string>
+</resources>

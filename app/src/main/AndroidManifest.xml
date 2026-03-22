@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+
+    <application
+        android:name=".LauncherApplication"
+        android:process="android.process.acore"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher_home"
+        android:theme="@style/Theme.UnifiedLauncher"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        tools:replace="android:icon,android:label,android:name">
+
+        <!-- JellyBean (default HOME) -->
+        <activity
+            android:name="com.jellybean.launcher2.Launcher"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity-alias
+            android:name=".JellyBeanHomeAlias"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity="com.jellybean.launcher2.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.jellybean.launcher2.WallpaperChooser"
+            android:exported="false" />
+
+        <!-- Marshmallow -->
+        <activity
+            android:name="com.marshmallow.launcher.Launcher"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@style/LauncherTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity-alias
+            android:name=".MarshmallowHomeAlias"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.marshmallow.launcher.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.marshmallow.launcher.SettingsActivity"
+            android:exported="true" />
+
+        <!-- Oreo -->
+        <activity
+            android:name="com.oreo.launcher3.Launcher"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@style/OreoLauncherTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity-alias
+            android:name=".OreoHomeAlias"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.oreo.launcher3.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.oreo.launcher3.SettingsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.oreo.launcher3.LauncherProvider"
+            android:authorities="com.oreo.launcher3.settings"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.oreo.launcher3.InstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.oreo.launcher3.SessionCommitReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.pm.action.SESSION_COMMITTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.oreo.launcher3.notification.NotificationListener"
+            android:exported="true"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.oreo.launcher3.dynamicui.ColorExtractionService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <!-- Donut -->
+        <activity
+            android:name="com.donut.launcher.Launcher"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity-alias
+            android:name=".DonutHomeAlias"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.donut.launcher.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.donut.launcher.WallpaperChooser"
+            android:exported="false" />
+
+        <provider
+            android:name="com.donut.launcher.LauncherProvider"
+            android:authorities="com.donut.launcher.settings"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.donut.launcher.InstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.donut.launcher.UninstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Gingerbread -->
+        <activity
+            android:name="com.gingerbread.launcher2.Launcher"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity-alias
+            android:name=".GingerbreadHomeAlias"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.gingerbread.launcher2.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.gingerbread.launcher2.WallpaperChooser"
+            android:exported="false" />
+
+        <provider
+            android:name="com.gingerbread.launcher2.LauncherProvider"
+            android:authorities="com.gingerbread.launcher2.settings"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.gingerbread.launcher2.InstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.gingerbread.launcher2.UninstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Honeycomb -->
+        <activity
+            android:name="com.android.launcher2.Launcher"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.Launcher3H"
+            android:windowSoftInputMode="adjustPan"
+            tools:replace="android:theme,android:windowSoftInputMode" />
+
+        <activity-alias
+            android:name=".HoneycombHomeAlias"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.android.launcher2.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.android.launcher2.WallpaperChooser"
+            android:exported="false"
+            tools:replace="android:exported" />
+
+        <!-- Shared providers and receivers -->
+        <provider
+            android:name="com.marshmallow.launcher.LauncherProvider"
+            android:authorities="com.marshmallow.launcher.settings"
+            android:exported="false" />
+
+        <provider
+            android:name="com.jellybean.launcher2.LauncherProvider"
+            android:authorities="com.jellybean.launcher2.settings"
+            android:exported="false" />
+
+        <provider
+            android:name="com.android.launcher2.LauncherProvider"
+            android:authorities="com.dismal.unifiedlauncher.honeycomb.settings"
+            android:exported="false"
+            tools:replace="android:authorities" />
+
+        <receiver
+            android:name="com.marshmallow.launcher.InstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.marshmallow.launcher.AppWidgetsRestoredReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_HOST_RESTORED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.jellybean.launcher2.InstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.jellybean.launcher2.UninstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.android.launcher2.InstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.android.launcher2.UninstallShortcutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.jellybean.launcher2.PreloadReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.PRELOAD_WORKSPACE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value="*" />
+
+        <activity
+            android:name="com.dismal.unifiedlauncher.ThemeSelectionActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog" />
+
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Seleccionar imagem de fundo</string>
+    <string name="wallpaper_chooser_empty">Sem imagens de fundo disponíveis</string>
+    <string name="wallpaper_cancel">Cancelar</string>
+</resources>

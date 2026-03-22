@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="15sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/no_items_icon" android:paddingTop="2dp" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" android:shadowColor="#ff000000" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="1" android:drawablePadding="0dp"/>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">المشغل</string>
+    <string name="uid_name">تطبيقات Android المركزية</string>
+    <string name="folder_name">المجلد</string>
+    <string name="chooser_wallpaper">اختيار خلفية من</string>
+    <string name="wallpaper_instructions">تعيين خلفية</string>
+    <string name="pick_wallpaper">الخلفيات</string>
+    <string name="activity_not_found">لم يتم تثبيت التطبيق على هاتفك.</string>
+    <string name="configure_wallpaper">تهيئة...</string>
+    <string name="rename_folder_label">اسم المجلد</string>
+    <string name="rename_folder_title">إعادة تسمية المجلد</string>
+    <string name="rename_action">موافق</string>
+    <string name="cancel_action">إلغاء</string>
+    <string name="menu_item_add_item">إضافة إلى الشاشة الرئيسية</string>
+    <string name="group_applications">التطبيقات</string>
+    <string name="group_shortcuts">الاختصارات</string>
+    <string name="group_folder">مجلد جديد</string>
+    <string name="group_live_folders">مجلدات</string>
+    <string name="group_widgets">الأدوات</string>
+    <string name="group_wallpapers">الخلفيات</string>
+    <string name="add_folder">المجلد</string>
+    <string name="add_clock">الساعة</string>
+    <string name="add_photo_frame">إطار الصورة</string>
+    <string name="out_of_space">ليس هناك مساحة أخرى في هذه الشاشة الرئيسية.</string>
+    <string name="shortcut_installed">تم إنشاء الاختصار \"%s\".</string>
+    <string name="shortcut_uninstalled">تمت إزالة الاختصار \"%s\".</string>
+    <string name="shortcut_duplicate">الاختصار \"%s\" موجود فعلاً.</string>
+    <string name="title_select_shortcut">تحديد اختصار</string>
+    <string name="title_select_application">تحديد تطبيق</string>
+    <string name="title_select_live_folder">تحديد مجلد</string>
+    <string name="all_apps_button_label">جميع التطبيقات</string>
+    <string name="all_apps_home_button_label">الرئيسية</string>
+    <string name="menu_add">إضافة</string>
+    <string name="menu_manage_apps">إدارة التطبيقات</string>
+    <string name="menu_wallpaper">خلفية</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_notifications">التنبيهات</string>
+    <string name="menu_gestures">الإيماءات</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="permlab_install_shortcut">اختصارات التثبيت</string>
+    <string name="permdesc_install_shortcut">للسماح للتطبيقات بإضافة الاختصارات بدون تدخل المستخدم.</string>
+    <string name="permlab_uninstall_shortcut">إزالة الاختصارات</string>
+    <string name="permdesc_uninstall_shortcut">للسماح لتطبيق بإزالة الاختصارات بدون تدخل المستخدم.</string>
+    <string name="permlab_read_settings">قراءة إعدادات الشاشة الرئيسية والاختصارات</string>
+    <string name="permdesc_read_settings">للسماح لتطبيق ما بقراءة الإعدادات والاختصارات في الشاشة الرئيسية.</string>
+    <string name="permlab_write_settings">كتابة إعدادات الشاشة الرئيسية والاختصارات</string>
+    <string name="permdesc_write_settings">للسماح لتطبيق ما بتغيير الإعدادات والاختصارات في الشاشة الرئيسية.</string>
+    <string name="gadget_error_text">حدثت مشكلة أثناء تحميل الأداة</string>
+</resources>

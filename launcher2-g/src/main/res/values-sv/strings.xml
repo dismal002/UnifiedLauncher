@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Startbild</string>
+    <string name="uid_name">Android Core Apps</string>
+    <string name="folder_name">Mapp</string>
+    <string name="chooser_wallpaper">Välj bakgrund från</string>
+    <string name="wallpaper_instructions">Ange bakgrund</string>
+    <string name="pick_wallpaper">Bakgrundsbilder</string>
+    <string name="activity_not_found">Programmet är inte installerat på din telefon.</string>
+    <string name="configure_wallpaper">Konfigurera...</string>
+    <string name="rename_folder_label">Mappnamn</string>
+    <string name="rename_folder_title">Byt namn på mapp</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Avbryt</string>
+    <string name="menu_item_add_item">Lägg till på startsidan</string>
+    <string name="group_applications">Appar</string>
+    <string name="group_shortcuts">Genvägar</string>
+    <string name="group_folder">Ny mapp</string>
+    <string name="group_live_folders">Mappar</string>
+    <string name="group_widgets">Widgetar</string>
+    <string name="group_wallpapers">Bakgrundsbilder</string>
+    <string name="add_folder">Mapp</string>
+    <string name="add_clock">Klocka</string>
+    <string name="add_photo_frame">Bildram</string>
+    <string name="out_of_space">Det finns inte plats för mer på den här startsidan.</string>
+    <string name="shortcut_installed">Genvägen \"%s\" har skapats.</string>
+    <string name="shortcut_uninstalled">Genvägen \"%s\" har tagits bort.</string>
+    <string name="shortcut_duplicate">Genvägen \"%s\" finns redan.</string>
+    <string name="title_select_shortcut">Välj genväg</string>
+    <string name="title_select_application">Välj app</string>
+    <string name="title_select_live_folder">Välj mapp</string>
+    <string name="all_apps_button_label">Alla appar</string>
+    <string name="all_apps_home_button_label">Startsida</string>
+    <string name="menu_add">Lägg till</string>
+    <string name="menu_manage_apps">Hantera appar</string>
+    <string name="menu_wallpaper">Bakgrund</string>
+    <string name="menu_search">Sök</string>
+    <string name="menu_notifications">Aviseringar</string>
+    <string name="menu_gestures">Gester</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="permlab_install_shortcut">installera genvägar</string>
+    <string name="permdesc_install_shortcut">Tillåter att ett program lägger till genvägar utan åtgärd från användaren.</string>
+    <string name="permlab_uninstall_shortcut">avinstallera genvägar</string>
+    <string name="permdesc_uninstall_shortcut">Tillåter att ett program tar bort genvägar utan åtgärd från användaren.</string>
+    <string name="permlab_read_settings">läsa inställningar och genvägar för startsidan</string>
+    <string name="permdesc_read_settings">Tillåter att ett program läser inställningar och genvägar på startsidan.</string>
+    <string name="permlab_write_settings">skriva inställningar och genvägar för startsidan</string>
+    <string name="permdesc_write_settings">Tillåter att ett program ändrar inställningar och genvägar på startsidan.</string>
+    <string name="gadget_error_text">Det gick inte att läsa in widgeten</string>
+</resources>

@@ -1,0 +1,36 @@
+package com.android.launcher2;
+
+import android.os.Handler;
+
+public class Alarm implements Runnable {
+    private OnAlarmListener mAlarmListener;
+    private long mAlarmTriggerTime;
+    private Handler mHandler = new Handler();
+    private boolean mWaitingForCallback;
+
+    public void setOnAlarmListener(OnAlarmListener alarmListener) {
+        this.mAlarmListener = alarmListener;
+    }
+
+    public void setAlarm(long millisecondsInFuture) {
+        long currentTime = System.currentTimeMillis();
+        this.mAlarmTriggerTime = currentTime + millisecondsInFuture;
+        if (!this.mWaitingForCallback) {
+            this.mHandler.postDelayed(this, this.mAlarmTriggerTime - currentTime);
+            this.mWaitingForCallback = true;
+        }
+    }
+
+    public void run() {
+        this.mWaitingForCallback = false;
+        if (this.mAlarmTriggerTime != 0) {
+            long currentTime = System.currentTimeMillis();
+            if (this.mAlarmTriggerTime > currentTime) {
+                this.mHandler.postDelayed(this, Math.max(0, this.mAlarmTriggerTime - currentTime));
+                this.mWaitingForCallback = true;
+            } else if (this.mAlarmListener != null) {
+                this.mAlarmListener.onAlarm(this);
+            }
+        }
+    }
+}

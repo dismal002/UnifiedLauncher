@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Пан. запуску</string>
+    <string name="uid_name">Служби Android Core</string>
+    <string name="folder_name">Папка</string>
+    <string name="chooser_wallpaper">Установ. фон. мал. з</string>
+    <string name="wallpaper_instructions">Устан. фон. мал.</string>
+    <string name="pick_wallpaper">Фонові мал.</string>
+    <string name="activity_not_found">Програму не встановлено у вашому телефоні.</string>
+    <string name="configure_wallpaper">Налаштувати...</string>
+    <string name="rename_folder_label">Назва папки</string>
+    <string name="rename_folder_title">Переймен. папку</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Скасувати</string>
+    <string name="menu_item_add_item">Додати до Головної</string>
+    <string name="group_applications">Програми</string>
+    <string name="group_shortcuts">Ярлики</string>
+    <string name="group_folder">Нова папка</string>
+    <string name="group_live_folders">Папки</string>
+    <string name="group_widgets">Віджети</string>
+    <string name="group_wallpapers">Фонові мал.</string>
+    <string name="add_folder">Папка</string>
+    <string name="add_clock">Годинник</string>
+    <string name="add_photo_frame">Фото-рамка</string>
+    <string name="out_of_space">Немає більше місця на гол. екрані.</string>
+    <string name="shortcut_installed">Ярлик \"%s\" створено.</string>
+    <string name="shortcut_uninstalled">Ярлик \"%s\" видалено.</string>
+    <string name="shortcut_duplicate">Ярлик \"%s\" уже існує.</string>
+    <string name="title_select_shortcut">Вибрати ярлик</string>
+    <string name="title_select_application">Вибрати програму</string>
+    <string name="title_select_live_folder">Виберіть папку</string>
+    <string name="all_apps_button_label">Усі програми</string>
+    <string name="all_apps_home_button_label">Головна</string>
+    <string name="menu_add">Додати</string>
+    <string name="menu_manage_apps">Керув. прогр.</string>
+    <string name="menu_wallpaper">Фоновий мал.</string>
+    <string name="menu_search">Пошук</string>
+    <string name="menu_notifications">Сповіщення</string>
+    <string name="menu_gestures">Жести</string>
+    <string name="menu_settings">Налаштув-ня</string>
+    <string name="permlab_install_shortcut">установити ярлики</string>
+    <string name="permdesc_install_shortcut">Дозволяє програмі додавати ярлики без утручання користувача.</string>
+    <string name="permlab_uninstall_shortcut">видалити ярлики</string>
+    <string name="permdesc_uninstall_shortcut">Дозволяє програмі видаляти ярлики без утручання користувача.</string>
+    <string name="permlab_read_settings">читати налашт-ня Головної та ярлики</string>
+    <string name="permdesc_read_settings">Дозволяє програмі читати налаштування та ярлики на Головній.</string>
+    <string name="permlab_write_settings">писати налашт-ня Головної та ярлики</string>
+    <string name="permdesc_write_settings">Дозволяє програмі змінювати налаштування та ярлики на Головній.</string>
+    <string name="gadget_error_text">Пробл із завантаж. віджета</string>
+</resources>

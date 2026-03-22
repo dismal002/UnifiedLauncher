@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_dialog_title">Selecionar plano de fundo</string>
+    <string name="wallpaper_chooser_empty">Não há papeis de parede disponíveis.</string>
+    <string name="wallpaper_cancel">Cancelar</string>
+</resources>

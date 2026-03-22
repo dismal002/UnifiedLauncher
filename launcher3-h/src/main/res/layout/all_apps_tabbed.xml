@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.AllAppsTabbed xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.android.launcher2.AllAppsBackground
+        android:id="@+id/all_apps_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Tab bar: direct child of TabHost so TabHost can measure it and offset content -->
+    <RelativeLayout
+        android:id="@+id/all_apps_tab_bar"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/tab_unselected_holo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:tabStripEnabled="false"/>
+
+        <FrameLayout
+            android:id="@+id/market_info_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <com.android.launcher2.ApplicationInfoDropTarget
+                android:layout_gravity="center"
+                android:id="@+id/all_apps_info_target"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_home_info_holo_dark"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@color/workspace_all_apps_and_delete_zone_text_color"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/market_button"
+                android:paddingRight="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market"
+                android:shadowColor="@color/workspace_all_apps_and_delete_zone_text_shadow_color"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="2"/>
+        </FrameLayout>
+
+        <com.android.launcher2.DeleteZone
+            android:textSize="18sp"
+            android:textColor="@color/workspace_all_apps_and_delete_zone_text_color"
+            android:gravity="center"
+            android:id="@+id/all_apps_delete_zone"
+            android:paddingRight="22dp"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/workspace_all_apps_and_delete_zone_text_shadow_color"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2"
+            android:drawableLeft="@drawable/delete_zone_selector"
+            android:drawablePadding="@dimen/delete_zone_drawable_padding"
+            android:layout_toLeftOf="@+id/market_info_frame"
+            android:layout_centerVertical="true"
+            launcher:deleteZoneDirection="right_to_left"/>
+    </RelativeLayout>
+
+    <!-- Tab content: direct child of TabHost -->
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.android.launcher2.AllAppsPagedView
+            android:id="@+id/all_apps_paged_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            launcher:pageLayoutWidthGap="@dimen/all_apps_view_pageLayoutWidthGap"
+            launcher:pageLayoutHeightGap="@dimen/all_apps_view_pageLayoutHeightGap"
+            launcher:pageLayoutPaddingTop="@dimen/all_apps_view_pageLayoutPaddingTop"
+            launcher:pageLayoutPaddingBottom="@dimen/all_apps_view_pageLayoutPaddingBottom"
+            launcher:pageLayoutPaddingLeft="@dimen/all_apps_view_pageLayoutPaddingLeft"
+            launcher:pageLayoutPaddingRight="@dimen/all_apps_view_pageLayoutPaddingRight"/>
+    </FrameLayout>
+
+</com.android.launcher2.AllAppsTabbed>

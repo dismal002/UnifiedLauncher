@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources>
+    <string name="application_name">Peluncur</string>
+    <string name="uid_name">Android Core Apps</string>
+    <string name="folder_name">Map</string>
+    <string name="chooser_wallpaper">Pilih wallpaper dari</string>
+    <string name="wallpaper_instructions">Setel wallpaper</string>
+    <string name="pick_wallpaper">Wallpaper</string>
+    <string name="activity_not_found">Aplikasi tidak dipasang pada ponsel Anda.</string>
+    <string name="configure_wallpaper">Konfigurasikan...</string>
+    <string name="rename_folder_label">Nama map</string>
+    <string name="rename_folder_title">Ubah nama map</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Batal</string>
+    <string name="menu_item_add_item">Tambahkan ke Layar Utama</string>
+    <string name="group_applications">Aplikasi</string>
+    <string name="group_shortcuts">Pintasan</string>
+    <string name="group_folder">Map baru</string>
+    <string name="group_live_folders">Map</string>
+    <string name="group_widgets">Widget</string>
+    <string name="group_wallpapers">Wallpaper</string>
+    <string name="add_folder">Map</string>
+    <string name="add_clock">Jam</string>
+    <string name="add_photo_frame">Bingkai gambar</string>
+    <string name="out_of_space">Tidak ada ruang lagi pada layar Utama ini.</string>
+    <string name="shortcut_installed">Pintasan \"%s\" sudah dibuat.</string>
+    <string name="shortcut_uninstalled">Pintasan \"%s\" telah dihapus.</string>
+    <string name="shortcut_duplicate">Pintasan \"%s\" sudah ada.</string>
+    <string name="title_select_shortcut">Pilih pintasan</string>
+    <string name="title_select_application">Pilih aplikasi</string>
+    <string name="title_select_live_folder">Pilih map</string>
+    <string name="all_apps_button_label">Semua aplikasi</string>
+    <string name="all_apps_home_button_label">Rumah</string>
+    <string name="menu_add">Tambahkan</string>
+    <string name="menu_manage_apps">Mengelola aplikasi</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu_search">Telusuri</string>
+    <string name="menu_notifications">Pemberitahuan</string>
+    <string name="menu_gestures">Isyarat</string>
+    <string name="menu_settings">Setelan</string>
+    <string name="permlab_install_shortcut">pasang pintasan</string>
+    <string name="permdesc_install_shortcut">Mengizinkan aplikasi menambahkan pintasan tanpa tindakan dari pengguna.</string>
+    <string name="permlab_uninstall_shortcut">copot pemasangan pintasan</string>
+    <string name="permdesc_uninstall_shortcut">Mengizinkan aplikasi menghapus pintasan tanpa tindakan dari pengguna.</string>
+    <string name="permlab_read_settings">baca setelan dan pintasan Beranda</string>
+    <string name="permdesc_read_settings">Mengizinkan aplikasi membaca setelan dan pintasan dalam Beranda.</string>
+    <string name="permlab_write_settings">tuliskan setelan dan pintasan Beranda</string>
+    <string name="permdesc_write_settings">Mengizinkan aplikasi mengubah setelan dan pintasan dalam Beranda.</string>
+    <string name="gadget_error_text">Masalah memuat widget</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="deleteZoneDirection">
+        <!-- Legacy launcher uses these names in layouts. Internally we only
+             distinguish between vertical (1) and horizontal (0) directions. -->
+        <enum name="right_to_left" value="0" />
+        <enum name="left_to_right" value="0" />
+        <enum name="top_to_bottom" value="1" />
+        <enum name="bottom_to_top" value="1" />
+        <!-- Keep the decompiled enum names for compatibility. -->
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="defaultScreen" format="integer">
+    </attr>
+    <attr name="cellCountX" format="integer">
+    </attr>
+    <attr name="cellCountY" format="integer">
+    </attr>
+    <attr name="cellWidth" format="dimension">
+    </attr>
+    <attr name="cellHeight" format="dimension">
+    </attr>
+    <attr name="xAxisStartPadding" format="dimension">
+    </attr>
+    <attr name="xAxisEndPadding" format="dimension">
+    </attr>
+    <attr name="yAxisStartPadding" format="dimension">
+    </attr>
+    <attr name="yAxisEndPadding" format="dimension">
+    </attr>
+    <attr name="widthGap" format="dimension">
+    </attr>
+    <attr name="heightGap" format="dimension">
+    </attr>
+    <attr name="strokeColor" format="color">
+    </attr>
+    <attr name="strokeTextColor" format="color">
+    </attr>
+    <attr name="holoStrokeWidth" format="float">
+    </attr>
+    <attr name="blurColor" format="color">
+    </attr>
+    <attr name="outlineColor" format="color">
+    </attr>
+    <attr name="pageLayoutWidthGap" format="dimension">
+    </attr>
+    <attr name="pageLayoutHeightGap" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingTop" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingBottom" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingLeft" format="dimension">
+    </attr>
+    <attr name="pageLayoutPaddingRight" format="dimension">
+    </attr>
+    <attr name="pageLayoutMaxHeight" format="dimension">
+    </attr>
+    <attr name="pageSpacing" format="dimension">
+    </attr>
+    <attr name="wallpaperCellSpanX" format="integer">
+    </attr>
+    <attr name="wallpaperCellCountX" format="integer">
+    </attr>
+    <attr name="widgetCellCountX" format="integer">
+    </attr>
+    <attr name="className" format="string">
+    </attr>
+    <attr name="packageName" format="string">
+    </attr>
+    <attr name="screen" format="integer" />
+    <attr name="x" format="integer" />
+    <attr name="y" format="integer" />
+    <attr name="spanX" format="integer" />
+    <attr name="spanY" format="integer" />
+    <attr name="icon" format="reference">
+    </attr>
+    <attr name="title" format="reference">
+    </attr>
+    <attr name="uri" format="string">
+    </attr>
+    <attr name="ignoreZone" format="dimension">
+    </attr>
+
+    <declare-styleable name="PagedView">
+        <attr name="pageLayoutWidthGap" />
+        <attr name="pageLayoutHeightGap" />
+        <attr name="pageLayoutPaddingTop" />
+        <attr name="pageLayoutPaddingBottom" />
+        <attr name="pageLayoutPaddingLeft" />
+        <attr name="pageLayoutPaddingRight" />
+        <attr name="pageLayoutMaxHeight" />
+        <attr name="pageSpacing" />
+    </declare-styleable>
+
+    <declare-styleable name="Workspace">
+        <attr name="defaultScreen" />
+        <attr name="cellCountX" />
+        <attr name="cellCountY" />
+    </declare-styleable>
+
+    <declare-styleable name="CellLayout">
+        <attr name="cellWidth" />
+        <attr name="cellHeight" />
+        <attr name="xAxisStartPadding" />
+        <attr name="xAxisEndPadding" />
+        <attr name="yAxisStartPadding" />
+        <attr name="yAxisEndPadding" />
+        <attr name="widthGap" />
+        <attr name="heightGap" />
+    </declare-styleable>
+
+    <declare-styleable name="DeleteZone">
+        <attr name="deleteZoneDirection" />
+    </declare-styleable>
+
+    <declare-styleable name="HandleView">
+        <attr name="deleteZoneDirection" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomizePagedView">
+        <attr name="wallpaperCellSpanX" />
+        <attr name="wallpaperCellCountX" />
+        <attr name="widgetCellCountX" />
+    </declare-styleable>
+
+    <declare-styleable name="PagedViewIcon">
+        <attr name="blurColor" />
+        <attr name="outlineColor" />
+    </declare-styleable>
+
+    <declare-styleable name="PagedViewWidget">
+        <attr name="blurColor" />
+        <attr name="outlineColor" />
+    </declare-styleable>
+
+    <declare-styleable name="StrokedTextView">
+        <attr name="strokeColor" />
+        <attr name="strokeTextColor" />
+        <attr name="holoStrokeWidth" />
+    </declare-styleable>
+
+    <declare-styleable name="ClippedImageView">
+        <attr name="ignoreZone" />
+    </declare-styleable>
+
+    <declare-styleable name="Favorite">
+        <attr name="className" />
+        <attr name="packageName" />
+        <attr name="screen" />
+        <attr name="x" />
+        <attr name="y" />
+        <attr name="spanX" />
+        <attr name="spanY" />
+        <attr name="icon" />
+        <attr name="title" />
+        <attr name="uri" />
+    </declare-styleable>
+</resources>

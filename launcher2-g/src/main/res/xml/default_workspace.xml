@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Default workspace layout loaded on first run.
+    Add <favorite>, <appwidget>, or <shortcut> entries here to pre-populate
+    the home screen. Left empty so the launcher starts with a clean slate
+    on modern devices where the original Gingerbread system apps don't exist.
+-->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto">
+</favorites>
